@@ -1,4 +1,7 @@
 
+#navegador{
+   background:orange;
+}
 #navegador ul{
     list-style-type: none;
     text-align: center;
@@ -26,3 +29,12 @@
  .three-columns{
     column-count: 3;
  }
+ #logo{
+    background: gray;
+    color:brown;
+    padding:10px;
+ }
+ #Piepagina{
+    background:yellow;
+ }
+ 
