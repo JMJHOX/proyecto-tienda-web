@@ -1,6 +1,6 @@
 
 #navegador{
-   background:orange;
+   background:black;
 }
 #navegador ul{
     list-style-type: none;
@@ -14,7 +14,7 @@
  #navegador li a {
     padding: 2px 7px 2px 7px;
     color: #666;
-    background-color: #eeeeee;
+    background-color: #333333;
     border: 1px solid #ccc;
     text-decoration: none;
  }
@@ -23,18 +23,35 @@
     color: #ffffff;
  } 
  #contenido p{
-     background-color: yellow;
-    text-align: left;
+     text-shadow: darkslategrey;
+
  }
  .three-columns{
+    display:flex;
     column-count: 3;
+    text-align: center;
+    margin: 10px;
+ 
  }
+ .three-columns img{
+    padding:15px;
+    box-shadow: 1px 1px 5px black;
+
+ }
+ 
  #logo{
     background: gray;
     color:brown;
-    padding:10px;
+    
  }
  #Piepagina{
-    background:yellow;
+    background:gray;
+    height:100px;
+    box-shadow:1px 1px 10px black;
+    
  }
+ .body { 
+   background-color: gray;
+ }
+
  
