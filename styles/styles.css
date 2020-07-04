@@ -1,57 +1,70 @@
-
-#navegador{
-   background:black;
+.contenedor
+{box-sizing:content-box;
+   height:100%;
+width:100%;
+   display:grid;
+   background:gray;
 }
-#navegador ul{
-    list-style-type: none;
-    text-align: center;
- }
- #navegador li{
-    display: inline;
-    text-align: center;
-    margin: 0 10px 0 0;
- } 
- #navegador li a {
-    padding: 2px 7px 2px 7px;
-    color: #666;
-    background-color: #333333;
-    border: 1px solid #ccc;
-    text-decoration: none;
- }
- #navegador li a:hover{
-    background-color: #333333;
-    color: #ffffff;
- } 
- #contenido p{
-     text-shadow: darkslategrey;
+header h1{
+   text-align:center;
+}
 
- }
- .three-columns{
-    display:flex;
-    column-count: 3;
-    text-align: center;
-    margin: 10px;
+.cntnavegador  > ul
+{
+   list-style-type: none;
+   text-align: center;
+   background: #333333;
+}
+ .navegador > li
+{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 5 0;
+} 
+.navegador li a
+ {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #333333;
+   border: 1px solid gray;
+   border-radius: 20em;
+   text-decoration: none;
+}
+.navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;}
+.contenedor  .main{
+   display:grid;
+   box-sizing: content-box;
+   width: auto;
+   height:auto;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 15px;
+   margin: 1px 10px 5px 1px;
+   
  
- }
- .three-columns img{
-    padding:15px;
-    box-shadow: 1px 1px 5px black;
+}
+.contenedor .main img{
+ height:250px;
+width:450px;
+max-height:100%;
+padding:2px 8px 2px 7px;
+border: 1px;
+box-shadow: 1px 1px 2px black;
+}
+.contenedor footer
+{
+   box-sizing: content-box;
+   height: 30px;
+   width:100%;
+   background: gray;
+   box-shadow: 1px 1px 5px black;
+}
 
- }
- 
- #logo{
-    background: gray;
-    color:brown;
-    
- }
- #Piepagina{
-    background:gray;
-    height:100px;
-    box-shadow:1px 1px 10px black;
-    
- }
- .body { 
-   background-color: gray;
- }
-
- 
+footer li
+{
+   box-sizing: content-box;
+   height: 30px;
+   width:100%;
+   background: gray;
+}
